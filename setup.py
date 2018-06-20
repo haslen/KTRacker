@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='ktracker',
-      version='0.1',
+      version='0.2',
       description='Analysis of kinase translocation reporter data',
       url='http://github.com/haslen/ktracker',
       author='Nick Hasle',
