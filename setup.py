@@ -8,5 +8,5 @@ setup(name='ktracker',
       author_email='haslen@uw.edu',
       license='MIT',
       packages=['ktracker'],
-      install_requires=['scipy', 'math', 'pandas', 'numpy', 'plotnine'],
+      install_requires=['scipy', 'pandas', 'numpy', 'plotnine'],
       zip_safe=False)
