@@ -1,6 +1,5 @@
 # dependencies
 import scipy
-import math
 import pandas as pd
 import numpy as np
 from plotnine import *
@@ -12,7 +11,7 @@ def cost_centroid_dist(i, j):
 
 # if distance > 25, then make the cost = infinity
 def cost_max_dist(i,j):
-    if math.sqrt((j.centroid_x - i.centroid_x)**2 + (j.centroid_y - i.centroid_y)**2) > 25:
+    if np.sqrt((j.centroid_x - i.centroid_x)**2 + (j.centroid_y - i.centroid_y)**2) > 25:
         return(9999999999999999999)
     else:
         return(0)
