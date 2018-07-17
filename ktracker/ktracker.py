@@ -1,4 +1,4 @@
-# dependencies
+# install dependencies
 import scipy
 import pandas as pd
 import numpy as np
